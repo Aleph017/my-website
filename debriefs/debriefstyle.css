@@ -133,8 +133,13 @@ a:active{
   height: 33vh;
 }
 
-/*@media only screen and (min-width : 320px){
-  img{
-    height : 20%;
+@media only screen and (max-width : 768px){
+  body{
+    width: 95%;
+    padding: 5%;
+    box-sizing: border-box;
   }
-}*/
+  *{
+    font-size: 0.9rem;
+  }
+}

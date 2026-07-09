@@ -23,12 +23,20 @@ iframe{
 
 body{
   background-color: #0f0f0f;
+  align: center;
+  width: 65%;
+  margin: auto;
 }
 
 * {
-  font-family: "Fira Code", monospace, Hack-local;
+  font-family: Hack-local,"Fira Code", monospace;
   font-size: 1.12rem;
   color: #dfdfdf;
+}
+
+.button{
+  height: 31px;
+  width: 88px;
 }
 
 h1, h2, h3 {
@@ -132,8 +140,15 @@ a:active{
   height: 33vh;
 }
 
-/*@media only screen and (min-width : 320px){
-  img{
-    height : 20%;
+#buttons-gallery{
+  text-align: center;
+}
+@media only screen and (max-width : 768px){
+  body{
+    min-width:100%;
+    margin: none;
   }
-}*/
+  *{
+    font-size: 0.9rem;
+  }
+}

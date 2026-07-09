@@ -16,7 +16,7 @@ async function get_it() {
     const isp_date = new Date(result["last_lost_ip"]);
     const seconds = Math.floor((today - isp_date) / 1000);
     const since = Math.floor(seconds / day)
-    isp_field.innerHTML = `days since last time my ISP was mean: ${since}`;
+    isp_field.innerHTML = `days since last time being unreachable: ${since}`;
   } 
   catch(error) {
     console.error(`${error.message}`);
