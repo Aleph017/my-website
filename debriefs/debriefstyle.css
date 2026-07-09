@@ -17,11 +17,12 @@ iframe{
   background-color: transparent;
 }
 
-.debriefs{
-  text-align: center;
-}
-
 body{
+  width: 60%;
+  align: center;
+  text-align: justified;
+  align-items: center;
+  margin: auto;
   background-color: #0f0f0f;
 }
 

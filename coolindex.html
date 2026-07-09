@@ -8,6 +8,7 @@
     <link rel="icon" href="favicon.ico">
     <script src="age.js" defer></script>
     <script src="tee.js" defer></script>
+    <script src="days.js" defer></script>
     <title>My Portfolio</title>
   </head>
     <body>
@@ -16,10 +17,19 @@
       <!-- <div class="lang"><button type="button" class="lang_button">EN</button></div> -->
       <h1>Hello, world!</h1>
       <h2>Hi! My nickname is Aleph, and I am a self-proclaimed junior developer.</h2>
+
+      <div id="counters">
+        <div id="days_active">yo</div>
+        <div id="days_since_isp">yo</div>
+      </div>
+
     </div>
 
     <noscript>
-      <p id="noscript">JavaScript seems to be turned off. I am not stealing your data or tracking you! <a href="https://github.com/Aleph017/my_portfolio" target="_blank">You can make sure by checking the Github repo.</a> Please turn on :3</p>
+      <p id="noscript">JavaScript seems to be turned off. I am not stealing
+      your data or tracking you! <a
+      href="https://github.com/Aleph017/my_portfolio" target="_blank">You can
+    make sure by checking the Github repo.</a> Please turn on :3</p>
     </noscript>
 
     <div class="judgement">
@@ -27,10 +37,10 @@
       <div class="about_me">
         <p id="my_age">If you're reading this, the JS script hasn't loaded yet.</p>  
         <p>I speak Russian language as a native speaker and English at around B2-C1 fluency </p>
-        <p>These are programming languages I am familiar with:</p>
+        <p>These are the programming languages I am familiar with:</p>
         <ul>
           <li>🐍Python</li>
-          <li>🖥️C++</li>
+          <li>🖥️C</li>
           <li>💾Bash</li>
           <li>🔵Lua</li>
         </ul>
@@ -39,27 +49,45 @@
       <hr>
       <img src="assets/minos.jpg" id="minos">
       <hr>
+      <h3>How this website works</h3>
+      <p>It's hosted on my old Asus K52F laptop. It runs Arch Linux, nginx to 
+      serve HTML, CSS and JS. I use myaddr.io and duckdns.org for dynamic DNS. 
+      The traffic passes through whole 2 routers at my home; I have to keep 
+      this unholy setup because of the legacy TV hardware my family uses.</p>
+      <p>My laptop's uptime is scheduled, so this website is accessible only 
+      4AM-11PM UTC, because of my bedtime. If you're on time but the site is 
+      still inaccessible, then my ISP has put me behind their CGNAT.</p>
 
-      <h3>My projects I am proud of</h3>
-      <h4>Library of Babel</h4>
-      <p>This project is inspired by the story of Jorge Luis Borges... and by a YouTube Minecraft video. Current version is written in C++. It supports English and Russian language and can take a word from CLI as the word to find.<br><a href="https://github.com/Aleph017/Babylon-Shelf" target="_blank">Github repository</a></p>
-
-      <h4>APIFrame</h4>
-      <p>This is a Python script that fetched data from Warframestat API, parsed it and printed in your terminal. It's deprecated now for the API has changed the format, though.<br><a href="https://github.com/Aleph017/apiframe" target="_blank">Github repository</a></p>
-
-      <h4>Telegram Text Adventure Bot</h4>
-      <p>This is a text-based adventure Telegram bot. Looks like an adventure engine a little bit.<br><a href="https://github.com/Aleph017/my_telegram_bot" target=_blank>Github repository</a></p> 
+      <h3>The projects I am proud of</h3>
       <h4>ULTRACOPYCAT</h4>
-      <p>This is a Garry's Mod addon that was inspired by ULTRAKILL. It spawns metrocops in the map, makes them really hate you and then gives you style bonuses depending on how you kill them.<br>
+      <p>This is a Garry's Mod addon that was inspired by ULTRAKILL. It spawns
+      metrocops in the map, makes them really hate you and then gives you style
+      bonuses depending on how you kill them.<br></p>
       <a href="https://github.com/Aleph017/ultracopycat" target="_blank">Github repository</a></p>
       <hr>
+      <h3>My blog</h3>
+      <p>If you care enough, check <a href="debriefs/">my blog</a>. Sometimes
+      I type shit and may post it there fom time to time.</p>
       <h3>Terminal Emulator Emulator<br>(Mobile unfriendly)(Shamefully vibecoded)</h3>
       
       <div id="TEE">
         <div id="cli"></div>
       </div>
-
+      <center>
+        <p>Wanna contact me? Try my email: aleph0x11 [at] atomicmail.io</p>
+        <p>
+          <a href="http://tilde.club"><img
+            src="http://tilde.club/~zarate/tildeclub.gif" border="0" alt="Tilde
+            Club Badge" style="height: 31px; width: 88px;"></a> 
+          <a href="https://denshi.org/"><img
+            src="https://denshi.org/denshi.png" alt="Denshi's Website"
+            title="Denshi's Website (this guy helped me install Arch my first
+          time!)" style="height: 31px; width: 88px;"></a>
+          <a href="https://aleph17.myaddr.io"><img
+          src="https://aleph17.myaddr.io/alephbutton.jpg" alt="Aleph's Website"
+        style="height: 31px; width: 88px;"></a>
+        </p>
+  		</center>
     </div>
-   
   </body>
 </html>
