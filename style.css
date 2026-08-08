@@ -21,7 +21,7 @@ iframe{
   text-align: center;
 }
 
-body{
+body, object{
   background-color: #0f0f0f;
   align: center;
   width: 65%;
@@ -34,10 +34,6 @@ body{
   color: #dfdfdf;
 }
 
-.button{
-  height: 31px;
-  width: 88px;
-}
 
 h1, h2, h3 {
   text-align: center;
@@ -140,11 +136,24 @@ a:active{
   height: 33vh;
 }
 
+.button{
+  height: 31px;
+  width: 88px;
+}
+
 #buttons-gallery{
+  text-decoration: none !important;
+  outline: none !important;
   text-align: center;
 }
+
+.btnlink {
+  text-decoration: none !important;
+  outline: none !important;
+}
+
 @media only screen and (max-width : 768px){
-  body{
+  body, object{
     min-width:100%;
     margin: none;
   }

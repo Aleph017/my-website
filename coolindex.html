@@ -6,21 +6,23 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="favicon.ico">
-    <script src="age.js" defer></script>
-    <script src="tee.js" defer></script>
-    <script src="days.js" defer></script>
+    <script src="scripts/age.js" defer></script>
+    <script src="scripts/tee.js" defer></script>
+    <!---   <script src="days.js" defer></script> --->
     <title>Aleph's Website</title>
   </head>
     <body>
 
     <div class="titles">
-      <h1>Hello, world!</h1>
+      <h1>Aleph's Hideout</h1>
       <h2>Hi! My nickname is Aleph, and I am a self-proclaimed junior developer.</h2>
 
+      <!---
       <div id="counters">
         <div id="days_active">days with white ip should be here</div>
         <div id="days_since_isp">days since last lost white ip should be here</div>
       </div>
+      --->
 
     </div>
 
@@ -47,15 +49,16 @@
       </div>
       <hr>
       <img src="assets/minos.jpg" id="minos">
-      <hr>
+      <hr> 
       <h3>How this website works</h3>
-      <p>It's hosted on my old Asus K52F laptop. It runs Arch Linux, nginx to 
-      serve HTML, CSS and JS. I use myaddr.io and duckdns.org for dynamic DNS. 
-      The traffic passes through whole 2 routers at my home; I have to keep 
-      this unholy setup because of the legacy TV hardware my family uses.</p>
-      <p>My laptop's uptime is scheduled, so this website is accessible only 
-      4AM-11PM UTC, because of my bedtime. If you're on time but the site is 
-      still inaccessible, then my ISP has put me behind their CGNAT.</p>
+      <p>It's hosted on my old Asus K52F laptop. It runs Arch Linux, nginx to
+      serve HTML, CSS and JS. I used myaddr.io and duckdns.org for dynamic DNS,
+      but now the preferred way to connect is my very own domain. The traffic
+      passes through whole 2 routers at my home; I have to keep this unholy
+      setup because of the legacy TV hardware my family uses.</p> 
+      <p>Earlier the lapserver's uptime was scheduled, but recently I bought a
+      real domain and started using local alternative to Cloudflare Tunnel, so
+      I decided to make the server work 24/7 with daily reboot at 3AM UTC.</p>
 
       <h3>The projects I am proud of</h3>
       <h4>ULTRACOPYCAT</h4>
@@ -72,6 +75,16 @@
       <a href="drivefill/pr.tar.xz">tarball</a> 
       <a href="drivefill/pr.zip">zip</a>
       <a href="drivefill/project.pdf" target="_blank">pdf</a>
+
+      <h4>This website</h4>
+      <p>I've spent quite some time on this website learning how to utilise 
+      nginx, how to write HTML and CSS, and doing some networking tomfoolery 
+      such as double port forwarding and gambling for a free white IP my ISP 
+      sometimes leases me.</p>
+      <p>Overall I've enjoyed creating this and surely I'll be happy if I 
+      made you smile. If so, maybe write me an email? The mailbox is mentioned 
+      down the page. Come say hi!</p>
+
       <hr>
       <h3>My blog</h3>
       <p>If you care enough, check <a href="debriefs/">my blog</a>. Sometimes
@@ -83,19 +96,10 @@
       </div>
       <center>
         <p>Wanna contact me? Try my email: aleph0x11 [at] atomicmail.io</p>
-        <p>
-          <a href="https://tilde.club"><img
-             src="https://tilde.club/~zarate/tildeclub.gif" border="0"
-                  alt="Tilde Club Badge" class="button"></a> 
-          <a href="https://denshi.org/"><img
-            src="https://denshi.org/denshi.png" alt="Denshi's Website"
-            title="Denshi's Website (this guy helped me install Arch my first
-          time!)" class=button></a>
-          <a href="https://aleph17.myaddr.io"><img
-          src="https://aleph17.myaddr.io/alephbutton.jpg" alt="Aleph's Website"
-        class=button></a>
-          <img class="button" src="bestvieweddesktop.gif" alt="Best viewed on desktop">
-        </p>
+        <!--#include file="buttons-gallery.html" -->
+        <!---
+          <object type="text/html" data="buttons-gallery.html"></object> 
+        --->
   		</center>
     </div>
   </body>
